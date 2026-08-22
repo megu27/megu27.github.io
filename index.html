@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>megu27のポートフォリオ</title>
-  </head>
-  <body>
-    <h1>megu27</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>megu27no</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <h2>About</h2>
-    <p>
-      簡単な自己紹介やアピール。<br>
-      どんなことができる、したいのか。
-    </p>
-    めぐですスパイスカレーとパスタが好きです
+<body>
 
-    <h3>Profile</h3>
-    <ul>
-      <li>名前（ハンドルネームも可）</li>
-      めぐ
-      <li>所在地</li>
-      福岡県
-        <th>資格・免許</th>
-        普通車免許
-       
-    
+  <header>
+    <h1>megu27no</h1>
+    <p>My Profile Website</p>
+  </header>
 
+  <main>
 
-  </body>
+    <section class="profile">
+      <h2>About Me</h2>
+      <p>
+        こんにちは！このページでは、自分のことや好きなことを紹介します。
+        Web制作やプログラミングについて勉強しています。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>My Favorite</h2>
+      <p>好きなことや興味のあることを紹介します。</p>
+
+      <ul>
+        <li>🎮 ゲーム</li>
+        <li>🎵 音楽</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>かんたん診断</h2>
+      <p>ボタンを押して自分のタイプを診断してみよう！</p>
+
+      <button onclick="diagnosis()">診断する</button>
+
+      <p id="result"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 megu27no</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
